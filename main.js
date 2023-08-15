@@ -30,3 +30,20 @@ if(tempInDegree<0){
 }
 
 console.log("Hello");
+
+
+const tempInDegree2=40;
+if(tempInDegree2>41){
+    console.log("too hot");
+}else if(tempInDegree2>30){
+    console.log("let's go for swim");
+}else if(tempInDegree2>20){
+    console.log("weather is cool");
+}else if(tempInDegree2>10){
+    console.log("It is very cold outside");
+}else{
+    console.log("extremely cold");
+}
+
+
+console.log("Hello");
