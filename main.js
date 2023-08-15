@@ -1,20 +1,20 @@
 // alert();
-let winingNumber = 19;
-let usserGuess = prompt("Guess a Number");
-// console.log(usserGuess);
+// let winingNumber = 19;
+// let usserGuess = prompt("Guess a Number");
+// // console.log(usserGuess);
 
-if(usserGuess===winingNumber){
-    console.log("Your Guess is Write");
-}else{
-    if(usserGuess<winingNumber){
-        console.log("too low");
-    }else{
-        console.log("too high");
-    }
-}
+// if(usserGuess===winingNumber){
+//     console.log("Your Guess is Write");
+// }else{
+//     if(usserGuess<winingNumber){
+//         console.log("too low");
+//     }else{
+//         console.log("too high");
+//     }
+// }
 
 
-let tempInDegree = 14;
+let tempInDegree = 35;
 if(tempInDegree<0){
     console.log("extremely cold outside");
 }else if(tempInDegree<16){
